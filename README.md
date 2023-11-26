@@ -1,4 +1,4 @@
-# Spring-boot Workapply Application
+# Spring-boot Workapply Application 👨‍🏭
 
 Web job application developed with Spring-boot and react. When logged as a company shows all candidates and when logged as candidate show all job opportunities.
 ## Access Link
