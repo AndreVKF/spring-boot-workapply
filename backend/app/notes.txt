@@ -1,0 +1,57 @@
+** Spring Boot **
+=> Layer of Spring Framework
+
+** Maven **
+./mvnw clean <clean, verify, package, test, compile>
+./mvnw spring-boot:run
+
+** Layers **
+Presentation
+Service
+Persistence
+
+** Presentation **
+=> Controllers <=> Services/Component
+
+** Service Layer **
+=> Services/Component <=> Repositories/DAOs
+
+** Persistence Layer **
+=> Entities
+=> Repositories/DAOs
+
+** Inversion o Control **
+=> Framework injects constructor classes based on the class interface
+=> "Dependency Injection"
+=> Beans => Concrete class that gets injecteds
+
+** @SpringBootApplication **
+@Configuration
+@ComponentScan
+@EnableAutoConfiguration
+
+** Environment Variables **
+application.properties
+application.yaml
+=> inject env variables
+
+** Database **
+Spring Data JPA => JPA (hibernate)      | ORM
+Spring JDBC     => JDBC
+                => Database Driver      | Raw
+
+** DAO **
+=> Data Access Object
+
+** API REST **
+- GET => Access info
+- POST => Insert info
+- PUT => Full update info
+- PATCH => Update arg info
+- DELETE => Delete info
+
+=> Params =>
+    BODY => json
+    URL/PATH PARAM => home/user/1234/lupet
+    QUERY PARAM => home?id=123&name=lupet
+    HEADER => (Authorization)
