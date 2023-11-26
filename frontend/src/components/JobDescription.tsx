@@ -1,7 +1,7 @@
 import { Job } from '../@types/job'
 import { api } from '../api'
 import { AxiosError, AxiosResponse } from 'axios'
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { toast } from 'react-toastify'
 import styled from 'styled-components'
